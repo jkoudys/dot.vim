@@ -20,11 +20,11 @@ Non-comprehensive list of the broad strokes:
 # Installation
 
 ```
-git clone git@github.com:jkoudys/dot.vim.git ~/.vim
+git clone --recurse-submodules git@github.com:jkoudys/dot.vim.git ~/.vim
 ```
 
 Or, if you want it in a hidden directory, symlink it after (and install wherever is convenient)
 ```
-git clone git@github.com:jkoudys/dot.vim.git ;
+git clone --recurse-submodules git@github.com:jkoudys/dot.vim.git ;
 ln -s ./dot.vim.git ~/.vim
 ```
